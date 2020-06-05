@@ -7,7 +7,8 @@
 	</head>
 	<body>
 
-		<h1>Pins Index</h1>
+        <h1>Pins Index</h1>
+        <a href=" {{ path('app_pin_create') }} ">Créer un pin</a>
 
 		{% for pin in pins %}
 			<article>
